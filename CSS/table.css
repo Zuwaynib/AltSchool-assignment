@@ -1,0 +1,55 @@
+html {
+    box-sizing: border-box;
+}
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+    background-color: #f5f6f7;
+    color: #0a0a23;
+}
+
+table {
+    padding: 0 0.75rem 1.5rem 0.75rem;
+    border-collapse: collapse;
+    border: 0;
+    width: 100%;
+    margin-top: 2rem;
+}
+table caption {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.table-head {
+    color: #050114;
+    font-size: 1.3em;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.school {
+    text-align: left;
+}
+.courses {
+    text-align: end;
+}
+tr th {
+    text-align: left;
+    padding: 0.5rem 0 0.5rem 0.5rem;
+}
+tr {
+    border-bottom: 2px solid #0a0a23;
+}
+tbody td, tbody th {
+    padding: 20px 0 10px 0;
+    border-left: 2px solid #0a0a23;
+    border-right: 2px solid #0a0a23;
+    text-align: center;
+}
+tbody th {
+    text-align: left;
+    padding-left: 10px;
+}
+tbody th:hover, tbody td:hover {
+    background-color: #0a0a23;
+    color: #f5f6f7;
+}
+
